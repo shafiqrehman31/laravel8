@@ -43,7 +43,6 @@ class CategoryController extends Controller
             'user_id'   =>  Auth::User()->id,
             'created_at'  => Carbon::now()
         ]);
-
         # Professional Mathod
         // $category = new Category;
         // $category->category_name = $request->category_name;
